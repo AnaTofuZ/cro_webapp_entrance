@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title> <.<title>> - Cro </title>
+  </head>
+  <body>
+    <@numbers: $var>
+      <?{$var % 3 == 0}> Fizz </?>
+      <?{$var % 5 == 0}> Buzz </?>
+      <?{($var % 3 != 0) && ($var % 5 != 0 )}> <$var> </?>
+      <br/ >
+    </@>
+  </body>
+</html>

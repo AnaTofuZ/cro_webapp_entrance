@@ -12,5 +12,9 @@ sub routes() is export {
         get -> 'profile' {
                   template 'profile.crotmp', { title => "タイトル", name => "AnaTofuZ" , hobby => "Twitter", lang => "Perl"};
         }
+
+        get -> 'fizzbuzz' {
+                 template 'fizzbuzz.crotmp', { title => "xxx", numbers => [(0..100).list] };
+        }
     }
 }
