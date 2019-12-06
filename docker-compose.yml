@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  app:
+    build: .
+    image: anatofuz_cro_entrance
+    volumes:
+      - .:/app
+    ports:
+      - "10000:10000"
+    tty: true

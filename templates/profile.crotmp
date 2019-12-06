@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title> <.<title>> </title>
+  </head>
+  <body>
+    <h1> プロフィール </h1>
+      <p> 私の名前は <.<name>> です</p>
+      <p>趣味は <.<hobby>>で, 好きなプログラミング言語は<.<lang>>です</p> 
+  </body>
+</html>

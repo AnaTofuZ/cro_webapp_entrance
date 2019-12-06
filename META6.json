@@ -1,0 +1,32 @@
+{
+  "description": "Write me!",
+  "source-url": "Write me!",
+  "build-depends": [
+  ],
+  "perl": "6.*",
+  "auth": "Write me!",
+  "tags": [
+    ""
+  ],
+  "provides": {
+    "Routes.pm6": "lib/Routes.pm6"
+  },
+  "test-depends": [
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "Cro::WebApp::Template"
+  ],
+  "meta-version": "0",
+  "resources": [
+  ],
+  "support": {
+    "source": "Write me!"
+  },
+  "name": "entrance",
+  "authors": [
+    ""
+  ],
+  "version": "0.0.1",
+  "license": "Write me!"
+}
